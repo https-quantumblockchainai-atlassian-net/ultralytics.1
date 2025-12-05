@@ -3,7 +3,7 @@
 # Image is CPU-optimized for ONNX, OpenVINO and PyTorch YOLOv8 deployments
 
 # Use the official Python 3.10 slim-bookworm as base image
-FROM python:3.10-slim-bookworm
+FROM python:3.14.1-slim-bookworm
 
 # Set environment variables
 ENV APP_HOME /usr/src/ultralytics
